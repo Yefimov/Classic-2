@@ -1,0 +1,8 @@
+public class Triangle extends Dimension2{
+    public Triangle(double width, double height){
+        this.width = width;
+        this.height = height;
+    }
+    @Override // ??? ????? ??????-?? ???????? ? ??? @Override
+    public double getSquare() { return width * height; }
+}
